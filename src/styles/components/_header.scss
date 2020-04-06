@@ -1,0 +1,25 @@
+.header {
+  background-color: $off_black;
+  margin-bottom: $xl_size;
+  padding: $m_size 0;
+  color: whitesmoke;
+}
+
+/*BEM block element modifier - it's a naming convention*/
+
+.header_title {
+  font-size: $l_size;
+  margin: 0;
+}
+.header_subtitle {
+  color: $off_white;
+  font-size: $m_size;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media (min-width: $width_desktop) {
+  .header {
+    margin-bottom: $s_size;
+  }
+}

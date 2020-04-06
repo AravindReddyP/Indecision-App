@@ -1,0 +1,40 @@
+/*Big button aka main one */
+
+.big_button {
+  background: $purple;
+  border: none;
+  border-bottom: 0.6rem solid darken($purple, 10%);
+  color: $smoky;
+  font-weight: bold;
+  font-size: $l_size;
+  margin-bottom: $m_size;
+  width: 100%;
+  padding: 1.8rem;
+}
+
+.big_button:disabled {
+  opacity: 0.5;
+}
+
+/*Normal button */
+.button {
+  background: $purple;
+  border: none;
+  border-bottom: 0.3rem solid darken($purple, 10%);
+  color: $smoky;
+  font-weight: 500;
+  padding: $s_size;
+}
+
+.button--link {
+  background: none;
+  border: none;
+  color: $off_white;
+  padding: 0;
+}
+
+@media (min-width: $width_desktop) {
+  .big_button {
+    margin-bottom: $xl_size;
+  }
+}

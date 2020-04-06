@@ -1,0 +1,24 @@
+.widget {
+  color: $light_blue;
+  margin-bottom: $xl_size;
+}
+
+.widget_header {
+  background: $blue;
+  color: $smoky;
+  padding: $m_size;
+  display: flex;
+  justify-content: space-between;
+}
+
+.widget_header h3 {
+  margin: 0;
+}
+
+.widget_message {
+  color: $smoky;
+  margin: 0;
+  padding: $l_size;
+  text-align: center;
+  border-bottom: 1px solid lighten($light_blue, 20%);
+}
